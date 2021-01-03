@@ -34,9 +34,8 @@ let liveBody = null
 const $ = new Env("聚看点")
 let sum = 0
 let cookiesArr = [
-  // '', // xz_jkd_appkey=xxx; JSESSIONID=xxx; UM_distinctid=xxx; （账号1ck）
-  // '', // xz_jkd_appkey=xxx; JSESSIONID=xxx; UM_distinctid=xxx; （账号2ck）
-], cookie = '', message;
+  // 'JSESSIONID= 43dcb6cd497c4032b9ab769e9c25075e
+JSESSIONID= 194326638da3463187effdcf48faf400', // xz_jkd_appkey=xxx; JSESSIONID=xxx; UM_distinctid=xxx; （账号1ck）
 
 async function getCookie() {
   if ($request && $request.method !== `OPTIONS`) {
